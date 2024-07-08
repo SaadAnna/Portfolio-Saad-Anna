@@ -59,23 +59,24 @@ header h1{
 }
 #profile_description img{
     width: 20%;
-    border: 15px solid #336699;
-    border-radius: 50%;
 }
 #profile_description div{
     display: block;
     text-align: start;
+    margin-right: 50px;
 }
 #profile_description div h1{
     color: black;
-    font-size: 50px;
+    font-size: 31px;
   text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
      font-weight: 800;
     line-height: 70px;
 }
 #profile_description div  p{
      color: gray;
      font-size: 18px;
+     font-family: "Montserrat", sans-serif;
      text-transform: uppercase;
      font-weight: 300;
 }
@@ -104,11 +105,12 @@ header h1{
     top: 30px;
 }
 #services h1{
-    text-transform: uppercase;
-    font-size: 40px;
-    font-weight: 900;
+    text-transform: lowercase;
+    font-size: 30px;
+    font-weight: 700;
     margin-left: 40px;
     color: black;
+    font-family: "Montserrat", sans-serif;
     margin-top: 100px;
 }
 #my_services{
@@ -124,19 +126,20 @@ header h1{
     display: block;
 }
 #my_services div h1{
-    text-transform: uppercase;
-    font-size: 30px;
+    text-transform: lowercase;
+    font-size: 25px;
     font-weight: 900;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: black;
     margin-top: 15px;
 }
 #my_services div p{
     color:  gray;
-    text-transform: uppercase;
-    font-size: 15px;
+    text-transform:  lowercase;
+    font-size: 18px;
     font-weight: 700;
     margin-top: 15px;
+    font-family: "Montserrat", sans-serif;
 }
 #my_services div a{
     color: black;
@@ -149,6 +152,9 @@ header h1{
 }
 #last_services{
     margin-right: 50px;
+}
+.icon{
+   padding-top: 20px;
 }
 hr{
     width: 70%;
@@ -220,6 +226,15 @@ hr{
 #contact_me div{
     display: block;
     margin-left: 40px;
+}
+#contact_me div p{
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 350px;
+    margin-left: 15px;
+    color: #336699;
+    font-size: 18px;
+    font-weight: 500;
 }
 #contact_me div h5{
     margin-bottom: 400px;
